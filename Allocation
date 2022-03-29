@@ -1,0 +1,9 @@
+current_Age = input("Enter your current age:")
+
+stock_allocation = 100 - current_Age
+bonds_allocation = current_Age
+
+while current_Age >= 100:
+    print("We recommend 100% of your portfolio in Stocks, and 0 % of your portfolio in Bonds")
+    break
+else: print("We recommend " + str(stock_allocation) + "% of your portfolio in Stocks, and " + str(bonds_allocation) + "% of your portfolio in Bonds")
